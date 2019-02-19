@@ -1,0 +1,167 @@
+[debug] [2019-02-18T17:55:03.978Z] ----------------------------------------------------------------------
+[debug] [2019-02-18T17:55:03.980Z] Command:       /home/yasmany/.nvm/versions/node/v10.13.0/bin/node /opt/erp-emp/node_modules/.bin/firebase login
+[debug] [2019-02-18T17:55:03.981Z] CLI Version:   6.3.1
+[debug] [2019-02-18T17:55:03.981Z] Platform:      linux
+[debug] [2019-02-18T17:55:03.981Z] Node Version:  v10.13.0
+[debug] [2019-02-18T17:55:03.981Z] Time:          Mon Feb 18 2019 12:55:03 GMT-0500 (Eastern Standard Time)
+[debug] [2019-02-18T17:55:03.981Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=393996502&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2019-02-18T17:58:06.128Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2019-02-18T17:58:08.677Z] <<< HTTP RESPONSE 200
+[info] 
+[info] ✔  Success! Logged in as ysantalla88@gmail.com
+[debug] [2019-02-18T17:58:09.006Z] AssertionError [ERR_ASSERTION]: 1 == 0
+    at ClientRequest.onConnect (/opt/erp-emp/node_modules/tunnel-agent/index.js:160:14)
+    at Object.onceWrapper (events.js:273:13)
+    at ClientRequest.emit (events.js:182:13)
+    at ClientRequest.EventEmitter.emit (domain.js:442:20)
+    at Socket.socketOnData (_http_client.js:474:11)
+    at Socket.emit (events.js:182:13)
+    at Socket.EventEmitter.emit (domain.js:442:20)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-02-18T17:58:38.847Z] ----------------------------------------------------------------------
+[debug] [2019-02-18T17:58:38.850Z] Command:       /home/yasmany/.nvm/versions/node/v10.13.0/bin/node /opt/erp-emp/node_modules/.bin/firebase login
+[debug] [2019-02-18T17:58:38.850Z] CLI Version:   6.3.1
+[debug] [2019-02-18T17:58:38.850Z] Platform:      linux
+[debug] [2019-02-18T17:58:38.850Z] Node Version:  v10.13.0
+[debug] [2019-02-18T17:58:38.850Z] Time:          Mon Feb 18 2019 12:58:38 GMT-0500 (Eastern Standard Time)
+[debug] [2019-02-18T17:58:38.850Z] ----------------------------------------------------------------------
+[debug] 
+[info] Already logged in as ysantalla88@gmail.com
+[debug] [2019-02-18T17:58:38.919Z] AssertionError [ERR_ASSERTION]: 1 == 0
+    at ClientRequest.onConnect (/opt/erp-emp/node_modules/tunnel-agent/index.js:160:14)
+    at Object.onceWrapper (events.js:273:13)
+    at ClientRequest.emit (events.js:182:13)
+    at ClientRequest.EventEmitter.emit (domain.js:442:20)
+    at Socket.socketOnData (_http_client.js:474:11)
+    at Socket.emit (events.js:182:13)
+    at Socket.EventEmitter.emit (domain.js:442:20)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-02-18T17:59:10.296Z] ----------------------------------------------------------------------
+[debug] [2019-02-18T17:59:10.299Z] Command:       /home/yasmany/.nvm/versions/node/v10.13.0/bin/node /opt/erp-emp/node_modules/.bin/firebase init
+[debug] [2019-02-18T17:59:10.299Z] CLI Version:   6.3.1
+[debug] [2019-02-18T17:59:10.299Z] Platform:      linux
+[debug] [2019-02-18T17:59:10.299Z] Node Version:  v10.13.0
+[debug] [2019-02-18T17:59:10.300Z] Time:          Mon Feb 18 2019 12:59:10 GMT-0500 (Eastern Standard Time)
+[debug] [2019-02-18T17:59:10.300Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-18T17:59:10.307Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-18T17:59:10.307Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /opt/erp-emp
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[debug] [2019-02-18T17:59:20.346Z] AssertionError [ERR_ASSERTION]: 1 == 0
+    at ClientRequest.onConnect (/opt/erp-emp/node_modules/tunnel-agent/index.js:160:14)
+    at Object.onceWrapper (events.js:273:13)
+    at ClientRequest.emit (events.js:182:13)
+    at ClientRequest.EventEmitter.emit (domain.js:442:20)
+    at Socket.socketOnData (_http_client.js:474:11)
+    at Socket.emit (events.js:182:13)
+    at Socket.EventEmitter.emit (domain.js:442:20)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-02-18T17:59:20.348Z] AssertionError [ERR_ASSERTION]: 1 == 0
+    at ClientRequest.onConnect (/opt/erp-emp/node_modules/tunnel-agent/index.js:160:14)
+    at Object.onceWrapper (events.js:273:13)
+    at ClientRequest.emit (events.js:182:13)
+    at ClientRequest.EventEmitter.emit (domain.js:442:20)
+    at Socket.socketOnData (_http_client.js:474:11)
+    at Socket.emit (events.js:182:13)
+    at Socket.EventEmitter.emit (domain.js:442:20)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-02-18T18:00:02.097Z] ----------------------------------------------------------------------
+[debug] [2019-02-18T18:00:02.100Z] Command:       /home/yasmany/.nvm/versions/node/v10.13.0/bin/node /opt/erp-emp/node_modules/.bin/firebase init
+[debug] [2019-02-18T18:00:02.100Z] CLI Version:   6.3.1
+[debug] [2019-02-18T18:00:02.100Z] Platform:      linux
+[debug] [2019-02-18T18:00:02.100Z] Node Version:  v10.13.0
+[debug] [2019-02-18T18:00:02.101Z] Time:          Mon Feb 18 2019 13:00:02 GMT-0500 (Eastern Standard Time)
+[debug] [2019-02-18T18:00:02.101Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-18T18:00:02.108Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-18T18:00:02.108Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /opt/erp-emp
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-02-18T18:00:16.016Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-02-18T18:00:16.016Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-02-18T18:00:19.069Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-18T18:00:19.110Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?page_size=100  
+ 
+[debug] [2019-02-18T18:00:23.074Z] <<< HTTP RESPONSE 200
+[info] 
+=== Database Setup
+[info] 
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[info] ✔  Database Rules for  have been downloaded to database.rules.json.
+[info] Future modifications to database.rules.json will update Database Rules when you run
+[info] firebase deploy.
+[info] 
+=== Firestore Setup
+[debug] [2019-02-18T18:00:43.271Z] AssertionError [ERR_ASSERTION]: 1 == 0
+    at ClientRequest.onConnect (/opt/erp-emp/node_modules/tunnel-agent/index.js:160:14)
+    at Object.onceWrapper (events.js:273:13)
+    at ClientRequest.emit (events.js:182:13)
+    at ClientRequest.EventEmitter.emit (domain.js:442:20)
+    at Socket.socketOnData (_http_client.js:474:11)
+    at Socket.emit (events.js:182:13)
+    at Socket.EventEmitter.emit (domain.js:442:20)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+[error] 
+[error] Error: An unexpected error has occurred.
